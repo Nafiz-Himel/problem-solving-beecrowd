@@ -1,12 +1,7 @@
 #include <stdio.h>
  
-int main() {
- 
-    /**
-     * Escreva a sua solução aqui
-     * Code your solution here
-     * Escriba su solución aquí
-     */
+int main() 
+{
      float a,b;
      scanf("%f %f", &a,&b);
      

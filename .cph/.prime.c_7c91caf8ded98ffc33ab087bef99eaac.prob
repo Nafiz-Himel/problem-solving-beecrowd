@@ -1,0 +1,1 @@
+{"name":"Local: prime","url":"e:\\My Codes\\problem solving\\prime.c","tests":[{"id":1781459440829,"input":"10","output":"2 3 5 7 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\My Codes\\problem solving\\prime.c","group":"local","local":true}
