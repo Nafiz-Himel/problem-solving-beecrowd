@@ -1,55 +1,26 @@
 #include <stdio.h>
-
 int main()
 {
-    int n, m, flag_d = 0, flag_c = 0, flag = 0;
-
-    scanf("%d %d", &n, &m);
-
-    if (n > m)
+    int n,m,flag = 0;
+    scanf("%d", &n);
+    while(scanf("%d",&m))
     {
-        int x, y;
-        while (scanf("%d %d", &x, &y))
+        if(n<m)
         {
-            if (x > y)
-            {
-                flag_d = 1;
-            }
-            else
-            {
-                flag = 1;
-                flag_d = 0;
-                break;
-            }
+            n = m;
+            flag = 1;
+        }
+        else if(n>m)
+        {
+            n=m;
+            flag = 2;
         }
     }
-    else if (n < m)
-    {
-        int x, y;
-        while (scanf("%d %d", &x, &y))
-        {
-            if (x > y)
-            {
-                flag_c = 1;
-            }
-            else
-            {
-                flag = 1;
-                flag_c = 0;
-                break;
-            }
-        }
-    }
-    else
-    {
-        printf("N\n");
-    }
 
-    if (flag_c == 1)
+    if(flag == 1)
         printf("C\n");
-    else if (flag_d == 1)
+    else if(flag == 2)
         printf("D\n");
-    else if(flag == 1)
-        printf("N\n");
+    else
     return 0;
 }
