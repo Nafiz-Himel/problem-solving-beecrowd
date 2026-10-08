@@ -1,4 +1,4 @@
-# 🇧🇷 Beecrowd Problem Solving
+# Beecrowd Problem Solving
 
 A dedicated repository containing my solutions to various practice problems from the **Beecrowd** platform.
 
